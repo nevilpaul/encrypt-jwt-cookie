@@ -1,5 +1,9 @@
 # encrypt-jwt-cookie
 
+<p>This is a testing encryption code that encrypts and decrypt id that you store as cookie does not display user id and its not an md5 value but encrypts ID</p>
+
+>Note this is under development but encryption and decryption are now working correctly as expected only numbers can be encrypted encrypt any user id or number you want.
+
 ## install
 <p>The source is available for download from GitHub. Alternatively, you can install using npm (Node Package Manager):</p>
 
@@ -13,9 +17,6 @@ npm install encrypt-jwt-cookie
 npm i encrypt-jwt-cookie
 ```
 
-<p>This is a testing encryption code that encrypts and decrypt id that you store as cookie does not display user id and its not an md5 value but encrypts ID</p>
-
->Note this is under development but encryption and decryption are now working correctly as expected only numbers can be encrypted encrypt any user id or number you want.
 ## Usage
 
 ### Encrypt your user id and store as a varchar in your cookie
