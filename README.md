@@ -2,9 +2,11 @@
 
 ## install
 <p>The source is available for download from GitHub. Alternatively, you can install using npm (Node Package Manager):</p>
+
 ```
 npm install encrypt-jwt-cookie
 ```
+
 ### Or
 
 ```
@@ -27,5 +29,5 @@ var ejc = require("encrypt-jwt-cookie")
  
 ejc.decrypt('r7Mu5HmeozE0P9G165_hXf6z46000==');
 ```
-<br><hr>
+
 >just updated the encryption code and the decryption get random key for any of your user_id or any number.
